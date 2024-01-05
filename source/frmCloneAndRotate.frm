@@ -32,9 +32,6 @@ Attribute cOutlineWidth.VB_VarHelpID = -1
 
 
 
-
-
-
 Private Sub UserForm_Initialize()
     ReadyForWorking = False
     Set queUnit = New clsQueUnit
@@ -52,13 +49,11 @@ Private Sub UserForm_Initialize()
     ReadyForWorking = True
 End Sub
 
-
 Private Sub lbFixAndFind_Click()
 
     lbFix_Click
     lbFind_Click
 End Sub
-
 
 Private Sub lbFind_Click()
 
@@ -166,12 +161,6 @@ Private Sub lbFind_Click()
 
 
 End Sub
-
-
-
-
-
-
 
 
 
